@@ -75,6 +75,10 @@ int btib_helper(const binary_tree_t *tree, int low, int hi);
 int _pow_recursion(int x, int y);
 binary_tree_t *bta_helper(binary_tree_t *root, const binary_tree_t *first,
 			  const binary_tree_t *second);
+avl_t *avl_remove(avl_t *root, int value);
+avl_t *avl_remove(avl_t *root, int value);
+int heap_extract(heap_t **root);
+int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
-
+const binary_tree_t *second);
 #endif
